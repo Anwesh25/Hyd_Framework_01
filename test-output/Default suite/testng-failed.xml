@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com_TestCases.Tc_001_Luma_Registration_Page">
+      <class name="com_TestCases.Tc_002_Luma_Login">
         <methods>
+          <include name="Luma_Login"/>
           <include name="Luma_BaseClass"/>
-          <include name="LumaRegistration"/>
         </methods>
-      </class> <!-- com_TestCases.Tc_001_Luma_Registration_Page -->
+      </class> <!-- com_TestCases.Tc_002_Luma_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

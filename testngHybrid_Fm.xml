@@ -11,8 +11,8 @@
 <parameter name="url" value="https://magento.softwaretestingboard.com/customer/account/login"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-     <class name="com_TestCases.Tc_001_Luma_Registration_Page"/>
-      <!-- <class name="com_TestCases.Tc_002_Luma_Login"/> -->
+     <!-- <class name="com_TestCases.Tc_001_Luma_Registration_Page"/>-->
+       <class name="com_TestCases.Tc_002_Luma_Login"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
